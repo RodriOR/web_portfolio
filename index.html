@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Orione Rolfo, Rodrigo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="orione, rolfo, rodrigo, orione rolfo, orione rolfo rodrigo, frontend, frontend developer, backend, backend developer, web develper, portfolio">
+        <meta name="description" content="Portfolio">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Icon Libraries -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/notyf/notyf.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary spinner-block" role="status">
+                <span class="sr-only">Cargando...</span>
+            </div>
+        </div>
+        <!-- Spinner end -->
+
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-12">
+
+                    <!-- Profile start -->
+                    <section class="py-5 border-bottom-primary wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 text-center mb-2">
+                                <h1 class="text-primary mb-4">Orione Rolfo, Rodrigo</h1>
+                                <div class="mb-5 typed-text-block">
+                                    <h4 class="typed-text-output d-inline-block text-light"></h4>
+                                    <div class="typed-text d-none">Web developer, Backend developer, Frontend developer</div>
+                                </div>
+                                <div class="d-flex justify-content-center mt-4">
+                                    <a class="btn btn-secondary btn-square mx-1" id="copyPhone"><i class="fas fa-phone-alt"></i></a>
+                                    <a class="btn btn-secondary btn-square mx-1" id="copyEmail"><i class="fas fa-envelope"></i></a>
+                                    <a class="btn btn-secondary btn-square mx-1" target="_blank" href="https://www.facebook.com/rodrigoorionerolfo/"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-secondary btn-square mx-1" target="_blank" href="https://www.linkedin.com/in/rodrigo-orione-rolfo/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn btn-secondary btn-square mx-1" target="_blank" href="https://www.instagram.com/rodrigoorionerolfo/"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-secondary btn-square mx-1" id="copyAddress"><i class="fas fa-map-marker-alt"></i></a>
+                                    <a class="btn btn-secondary btn-square mx-1" target="_blank" href="CV_OOR.pdf"><i class="fas fa-file-download"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center mb-2 mt-4">
+                                <img class="w-50 img-fluid mb-4 border border-profile border-light" src="img/profile.jpg" alt="Profile image">
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Profile end -->
+
+                    <!-- About start -->
+                    <section class="py-5 border-bottom-primary wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-4">Sobre mí</h1>
+                        <p>Me considero una persona interesada en aprender de manera continua. Siempre estoy dispuesto a adquirir nuevas habilidades, herramientas y conocimientos, ya que entiendo que la actualización constante es clave para mantenerme competitivo y eficiente en mi campo. Mi búsqueda constante de crecimiento y desarrollo personal me impulsa a progresar y alcanzar metas cada vez más ambiciosas. Considero que el aprendizaje conlleva al éxito y, por ende, me esfuerzo por brindar siempre lo mejor de mí y desplegar todo mi potencial en cada proyecto que emprendo. Además, valoro la colaboración y el trabajo en equipo, porque estoy convencido de que diferentes perspectivas enriquecen nuestra manera de abordar los desafíos y nos lleva a alcanzar soluciones más innovadoras y efectivas.</p>
+                    </section>
+                    <!-- About end -->
+
+                    <!-- Skills start -->
+                    <section class="py-5 border-bottom-primary wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-4">Habilidades</h1>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 text-center mb-2">
+                                        <ul class="list-inline mb-2" id="skills-filters">
+                                            <li class="btn btn-secondary mt-2 active" data-filter="*"><i class="fa fa-star me-2"></i>Todas</li>
+                                            <li class="btn btn-secondary mt-2" data-filter=".frontend"><i class="fa fa-laptop-code me-2"></i>Frontend</li>
+                                            <li class="btn btn-secondary mt-2" data-filter=".backend"><i class="fas fa-server me-2"></i>Backend</li>
+                                            <li class="btn btn-secondary mt-2" data-filter=".tools"><i class="fas fa-tools me-2"></i>Herramientas</li>
+                                            <li class="btn btn-secondary mt-2" data-filter=".languages"><i class="fas fa-globe me-2"></i>Idiomas</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row skills-container">
+                                    <div class="col-md-6 skill-item backend">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fab fa-python mb-2 me-2"></i>
+                                                        <p class="mb-2">Python</p>
+                                                    </div>
+                                                    <p class="mb-2">85%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item frontend">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fab fa-html5 mb-2 me-2"></i>
+                                                        <p class="mb-2">HTML</p>
+                                                    </div>
+                                                    <p class="mb-2">80%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item backend">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fas fa-code mb-2 me-2"></i>
+                                                        <p class="mb-2">Django</p>
+                                                    </div>
+                                                    <p class="mb-2">80%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-tertiary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item frontend">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fab fa-css3-alt mb-2 me-2"></i>
+                                                        <p class="mb-2">CSS</p>
+                                                    </div>
+                                                    <p class="mb-2">75%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item frontend">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fab fa-js mb-2 me-2"></i>
+                                                        <p class="mb-2">JavaScript</p>
+                                                    </div>
+                                                    <p class="mb-2">70%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item backend">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fab fa-java mb-2 me-2"></i>
+                                                        <p class="mb-2">Java</p>
+                                                    </div>
+                                                    <p class="mb-2">70%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item tools">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fas fa-laptop-code mb-2 me-2"></i>
+                                                        <p class="mb-2">VS Code</p>
+                                                    </div>
+                                                    <p class="mb-2">70%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item tools">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fab fa-git-alt mb-2 me-2"></i>
+                                                        <p class="mb-2">Git</p>
+                                                    </div>
+                                                    <p class="mb-2">65%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item frontend">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fab fa-bootstrap mb-2 me-2"></i>
+                                                        <p class="mb-2">Bootstrap</p>
+                                                    </div>
+                                                    <p class="mb-2">60%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item backend">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fas fa-code mb-2 me-2"></i>
+                                                        <p class="mb-2">Spring</p>
+                                                    </div>
+                                                    <p class="mb-2">60%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-primary role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item backend">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fas fa-database mb-2 me-2"></i>
+                                                        <p class="mb-2">MySQL</p>
+                                                    </div>
+                                                    <p class="mb-2">60%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item backend">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fas fa-database mb-2 me-2"></i>
+                                                        <p class="mb-2">MSSQL</p>
+                                                    </div>
+                                                    <p class="mb-2">60%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item tools">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fas fa-code mb-2 me-2"></i>
+                                                        <p class="mb-2">Postman</p>
+                                                    </div>
+                                                    <p class="mb-2">50%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item backend">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fas fa-database mb-2 me-2"></i>
+                                                        <p class="mb-2">Postgres</p>
+                                                    </div>
+                                                    <p class="mb-2">50%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item languages">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fas fa-language mb-2 me-2"></i>
+                                                        <p class="mb-2">Español</p>
+                                                    </div>
+                                                    <p class="mb-2">100%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-tertiary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 skill-item languages">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <div class="skill mb-4">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <i class="fas fa-language mb-2 me-2"></i>
+                                                        <p class="mb-2">Inglés</p>
+                                                    </div>
+                                                    <p class="mb-2">60%</p>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Skills end -->
+
+                    <!-- Work experiences start -->
+                    <section class="py-5 border-bottom-primary wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-4">Experiencia laboral</h1>
+                        <div class="border-start border-2 border-light pt-2 ps-5">
+                            <div id="workExperiencesContainer" class="mb-4"></div>
+                        </div>
+                    </section>
+                    <!-- Work experiences end -->
+
+                    <!-- Educations start -->
+                    <section class="py-5 border-bottom-primary wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-4">Formación</h1>
+                        <div class="border-start border-2 border-light pt-2 ps-5">
+                            <div id="educationsContainer" class="mb-4"></div>
+                        </div>
+                    </section>
+                    <!-- Educations end -->
+
+                    <!-- Certifications start -->
+                    <section class="py-5 border-bottom-primary wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-4">Certificaciones</h1>
+                        <div id="certificationsContainer" class="row g-4 align-items-stretch"></div>
+                    </section>
+                    <!-- Certifications end -->
+
+                    <!-- Interests start -->
+                    <section class="py-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-4">Intereses</h1>
+                        <div id="interestsContainer" class="row g-4 align-items-stretch"></div>
+                    </section>
+                    <!-- Interests end -->
+
+                    <!-- Footer start -->
+                    <section class="wow fadeIn" data-wow-delay="0.1s">
+                        <div class="text-light text-center p-2">
+                            <p class="m-0"><span id="currentYear"></span> | Orione Rolfo, Rodrigo</p>
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							<p class="m-0">&copy; All Rights Reserved. Designed by <a href="https://htmlcodex.com">HTML Codex</a></p>
+                        </div>
+                    </section>
+                    <!-- Footer end -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Back to Top start -->
+        <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+        <!-- Back to Top end -->
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/notyf/notyf.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.min.js"></script>
+    </body>
+</html>
